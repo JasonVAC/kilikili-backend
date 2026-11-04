@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+output/
+logs/
+current_host.txt
+tunnel.log
+*.mp4
