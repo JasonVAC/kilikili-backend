@@ -101,6 +101,14 @@ AAC-LC 24 kbps 单声道 22.05 kHz
 - cpolar 免费版不支持固定子域名，重启换域名 → 用 `host-watcher` 跟随
 - 客户端部分功能（登录、评论）原作者未实现
 
+
+## Credits & license note
+
+- **客户端**：[jiehuan-jason/KiliKili](https://github.com/jiehuan-jason/KiliKili)，采用 **GPL-3.0**。
+  本仓库**不包含**该客户端的任何源码或二进制产物，两者仅通过 HTTP 通信。
+- **本仓库（后端）**：独立程序，采用 **MIT**（见 `LICENSE`）。
+- 若你要分发编译后的 KiliKili 客户端 `jar`，请遵守其 **GPL-3.0** 条款（提供对应源码等）。
+
 ## License
 
 MIT
