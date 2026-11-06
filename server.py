@@ -366,7 +366,7 @@ def _route_single(handler, p, q):
         return True
     if p.startswith("/playurl"):
         bvid=(q.get("bvid") or [""])[0]; cid=(q.get("cid") or [""])[0]
-        host = stream_host(handler.headers.get("Host") or "kilikili.serveousercontent.com")
+        host = stream_host(handler.headers.get("Host") or "127.0.0.1:8083")
         tid = cid or bvid
         fn = os.path.join(OUTDIR, "%s_240p.mp4" % tid)
         if not (os.path.exists(fn) and os.path.getsize(fn) > 1024):
